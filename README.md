@@ -1,4 +1,4 @@
-"PHP Simple HTML DOM Parser" Yii2 extension (Sereja3578/project-yii2-simple-html-dom)
+"PHP Simple HTML DOM Parser" Yii2 extension (sereja3578/project-yii2-simple-html-dom)
 ===============
 "Simple HTML Dom"(PHP Simple HTML DOM Parser) http://simplehtmldom.sourceforge.net"
 
@@ -8,15 +8,15 @@ Installation
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 Either run
 ```
-php composer.phar require --prefer-dist Sereja3578/project-yii2-simple-html-dom "dev-master"
+php composer.phar require --prefer-dist sereja3578/project-yii2-simple-html-dom "dev-master"
 ```
 or (if composer installed)
 ```
-composer require --prefer-dist Sereja3578/project-yii2-simple-html-dom "dev-master"
+composer require --prefer-dist sereja3578/project-yii2-simple-html-dom "dev-master"
 ```
 OR add(code below) to the require section of your `composer.json` file and run command Install(Composer)
 ```
-"Sereja3578/project-yii2-simple-html-dom": "dev-master"
+"sereja3578/project-yii2-simple-html-dom": "dev-master"
 ```
 
 Usage
@@ -26,8 +26,8 @@ Once the extension is installed, simply use it in your code by  :
 
 ```php
 <?php
-use Sereja3578\simplehtmldom\simple_html_dom;
-use Sereja3578\simplehtmldom\SimpleHTMLDom;
+use sereja3578\simplehtmldom\simple_html_dom;
+use sereja3578\simplehtmldom\SimpleHTMLDom;
 use yii\base\Component;
 use yii\httpclient\Exception;
 use yii\httpclient\Client;

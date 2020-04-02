@@ -53,7 +53,7 @@
  * All of the Defines for the classes below.
  * @author S.C. Chen <me578022@gmail.com>
  */
-namespace Sereja3578\simplehtmldom;
+namespace sereja3578\simplehtmldom;
 
 define( 'HDOM_TYPE_ELEMENT', 1 );
 define( 'HDOM_TYPE_COMMENT', 2 );
