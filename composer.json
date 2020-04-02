@@ -1,13 +1,13 @@
 {
-    "name": "keltstr/yii2-simplehtmldom",
-    "description": "\"PHP Simple HTML DOM Parser\" rev.210 adapted to Yii2 psr-4(namespace autoload class) based on serhatozles/yii2-simplehtmldom(rev.196)",
+    "name": "first-programmer/project-yii2-simple-html-dom",
+    "description": "\"PHP Simple HTML DOM Parser\"",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension","simplehtmldom","simple_html_dom"],
+    "keywords": ["yii2","extension","simple html dom","simple_html_dom"],
     "license": "WTFPL",
     "authors": [
         {
-            "name": "keltstr",
-            "email": "keltstr@gmail.com"
+            "name": "first-programmer",
+            "email": "Maksimus1991@mail.ru"
         }
     ],
     "require": {
@@ -15,12 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "keltstr\\simplehtmldom\\": ""
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.210.x-dev"
+            "first-programmer\\project-yii2-simple-html-dom\\": ""
         }
     }
 }
