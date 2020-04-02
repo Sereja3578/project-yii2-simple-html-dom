@@ -1,4 +1,4 @@
-"PHP Simple HTML DOM Parser" Yii2 extension" (Sereja3578/project-yii2-simple-html-dom)
+"PHP Simple HTML DOM Parser" Yii2 extension (Sereja3578/project-yii2-simple-html-dom)
 ===============
 "Simple HTML Dom"(PHP Simple HTML DOM Parser) http://simplehtmldom.sourceforge.net"
 
