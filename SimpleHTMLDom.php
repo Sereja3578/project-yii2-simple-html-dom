@@ -7,8 +7,9 @@
  */
  /*=== Adapted origin library to Yii2
  * origin Library "PHP Simple HTML DOM Parser" @version 1.5 ($Rev: 210 - 2014-05-28) from http://sourceforge.net/p/simplehtmldom/code/210/tree/trunk/simple_html_dom.php
- * *@author Serhat (github.com/serhatozles) Turkey serhatozles[]gmail.com http://www.nippy.in
- * *@author Keltstr (github.com/keltstr) Europe/Minsk keltstr[]gmail.com
+ * @author Serhat (github.com/serhatozles) Turkey serhatozles[]gmail.com http://www.nippy.in
+ * @author Keltstr (github.com/keltstr) Europe/Minsk keltstr[]gmail.com
+ * @author Sereja3578 (github.com/Sereja3578) Europe/Moscow Maksimus1991[]mail.ru
  */
 /**=== origin Library "PHP Simple HTML DOM Parser" 
  * Website: http://sourceforge.net/projects/simplehtmldom/
@@ -78,7 +79,10 @@ define( 'DEFAULT_SPAN_TEXT', " " );
 define( 'MAX_FILE_SIZE', 600000 );
 // helper functions
 // -----------------------------------------------------------------------------
-class SimpleHTMLDom extends \yii\helpers\Inflector
+
+use yii\helpers\Inflector;
+
+class SimpleHTMLDom extends Inflector
 {
     // get html dom from file
     // $maxlen is defined in the code as PHP_STREAM_COPY_ALL which is defined as -1.
